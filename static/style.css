@@ -74,3 +74,18 @@ p {
 .tip {
     margin-bottom: 20px;
 }
+
+/* Nowe style dla listy wskazówek */
+ul.tips-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.tips-list li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+ul.tips-list li strong {
+    color: #ff9800; /* Kolor dla pogrubionych fragmentów */
+}
